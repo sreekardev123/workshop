@@ -1,0 +1,68 @@
+.search{
+    height: 60%;
+    width: 60%;
+}
+.sai{
+    background-color:grey;
+}
+.sreekar{
+    display: flex;
+    gap: 30px;
+}
+#realme{
+    border: 2px solid;
+    height: 350px;
+    width: 220px;
+    margin-top: 2%;
+}
+#iphone15{
+    border: 2px solid;
+    height: 350px;
+    width: 220px;
+    margin-top: 2%;
+}
+#samsungultra{
+    border: 2px solid;
+    height: 350px;
+    width: 220px;
+    margin-top: 2%;
+
+}
+#vivo{
+    border: 2px solid;
+    height: 350px;
+    width: 220px;
+    margin-top: 2%;
+
+}
+#oneplus{
+    border: 2px solid;
+    height: 350px;
+    width: 220px;
+    margin-top: 2%;
+
+}
+
+.sai1{
+    height: 50%;
+    
+}
+.sai2{
+    height: 50%;
+    margin-left: 5%;
+    margin-top: 5%;
+    
+}
+.sai3{
+    height: 60%;
+   
+}
+.sai4{
+    height: 60%;
+
+}
+.sai5{
+    height: 60%;
+ 
+}
+

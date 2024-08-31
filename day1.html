@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="./style.css">
+   
+</head> 
+<body>
+
+    <div class="search">
+        <input class="search" id="search"  placeholder="search">
+        <button onclick="search()" >search</button>
+    </div>
+    <div class="sreekar">
+    <div class="items" id="realme">
+        <img class="sai1" src="./phone 1.jpg">
+        <p>Model:realme</p>
+        <p>color:loght gray</p>
+        <p>price:35,000</p>
+    </div>
+    <div class="items" id="iphone15">
+        <img class="sai2" src="./phone 2.jpg">
+        <p>Model:iphone 15</p>
+        <p>color: gray</p>
+        <p>price:55,000</p>
+    </div>
+    <div class="items" id="samsungultra">
+        <img class="sai3" src="./phone 4.jpg">
+        <p>Model:Samsung s 24ultra</p>
+        <p>color: light violet</p>
+        <p>price:1,0000</p>
+        
+    </div>
+    <div class="items" id="vivo">
+        <img class="sai4" src="./5.webp">
+        <p>Model:vivo T3x</p>
+        <p>color: red</p>
+        <p>price:54,000</p>
+    </div>
+    <div class="items" id="oneplus">
+        <img class="sai5" src="./6.webp">
+        <p>Model:one Plus</p>
+        <p>color:blue</p>
+        <p>price:65,000</p>
+    </div>
+</div>
+<script>
+    function search(){
+        let x=document.getElementById('search').value;
+        if(x=="realme"){
+            document.getElementById("realme").innerHTML
+            document.getElementById("iphone15").style.display="none"
+            document.getElementById("samsungultra").style.display="none"
+            document.getElementById("vivo").style.display="none"
+            document.getElementById("oneplus").style.display="none"
+        }
+        else if(x=="iphone15"){
+            document.getElementById("iphone15").innerHTML
+            document.getElementById("realme").style.display="none"
+            document.getElementById("samsungultra").style.display="none"
+             document.getElementById("vivo").style.display="none"
+            document.getElementById("oneplus").style.display="none"
+        }
+        else if(x=="samsungultra"){
+            document.getElementById("samsungultra").innerHTML
+            document.getElementById("iphone15").style.display="none"
+            document.getElementById("realme").style.display="none"
+             document.getElementById("vivo").style.display="none"
+            document.getElementById("oneplus").style.display="none"
+        }
+        else if(x=="vivo"){
+            document.getElementById("vivo").innerHTML
+            document.getElementById("iphone15").style.display="none"
+            document.getElementById("realme").style.display="none"
+             document.getElementById("samsungultra").style.display="none"
+            document.getElementById("oneplus").style.display="none"
+        }
+        else if(x=="oneplus"){
+            document.getElementById("oneplus").innerHTML
+            document.getElementById("iphone15").style.display="none"
+            document.getElementById("realme").style.display="none"
+             document.getElementById("samsungultra").style.display="none"
+            document.getElementById("vivo").style.display="none"
+        }
+
+        
+
+    }
+    
+</script>
+    
+
+
+
+   
+    
+</body>
+</html>
